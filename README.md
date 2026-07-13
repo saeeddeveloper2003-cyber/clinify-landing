@@ -8,7 +8,7 @@ A modern landing page for a medical and beauty platform, built to practice clean
 
 ## 🌐 Live Demo
 
-🔗 https://my-project-phi-six-56.vercel.app/
+🔗 https://clinfay-landing.vercel.app/
 
 ---
 
