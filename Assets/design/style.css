@@ -1657,12 +1657,22 @@ padding-bottom: 2.3rem;
 .icon-telegram{
     width: 1.5rem;
     height: 1.5rem;
-    
 }
 .text__footer{
-    display: block;
-    width: 16.0625rem;
-    height: 1.25rem;
     text-align: center;
-    margin-right: 1rem;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+}
+.text__container-footer{
+    width: 17.1875rem;
+    height: 1.5rem;
+    margin-right: 2rem;
+}
+.clinfay__text{
+    font-weight: 700;
+    line-height: 1.5rem;
+    font-size: 14px;
+    letter-spacing: 0;
 }
