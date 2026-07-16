@@ -1180,8 +1180,9 @@ margin-top:0.4rem
     margin-top: 10rem;
 }
 .cart__clinic{
-    height: auto;
-    width: auto;
+    width: 100%;
+    min-height: 22.8125rem;
+    max-width: 20rem;
     padding: 1rem;
     background-color: var(--color__box-banner);
     border-radius: 24px;
@@ -1286,8 +1287,9 @@ margin-top:0.4rem
 }
 
 .Dental__clinic{
-    width: auto;
-    height: auto;
+    width: 100%;
+    max-width: 20rem;
+    min-height:22.8125rem ;
     padding: 1rem;
     background-color: var(--color__box-banner);
     border-radius: 24px;
@@ -1297,9 +1299,8 @@ margin-top:0.4rem
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    max-width: 17rem;
-    min-height: 3.5rem;
+    width: 17rem;
+    height: 3.5rem;
     border-radius: 1rem 1rem 0 0;
     position: absolute;
     bottom: 0;
@@ -1499,9 +1500,8 @@ margin-top:0.4rem
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    max-width: 17rem;
-    min-height: 3.5rem;
+    width: 17rem;
+    height: 3.5rem;
     border-radius: 1rem 1rem 0 0;
     position: absolute;
     bottom: 0;
@@ -1523,8 +1523,9 @@ margin-top:0.4rem
     background-color: var(--color__box-media);
 }
 .barbershop__cart{
-    height: auto;
-    width: auto;
+    width: 100%;
+    min-height:22.8125rem;
+    max-width: 20rem;
     padding: 1rem;
     background-color: var(--color__box-banner);
     border-radius: 24px;
@@ -2019,4 +2020,22 @@ margin-top:0.4rem
     line-height: 1.5rem;
     font-size: 14px;
     letter-spacing: 0;
+}
+/* seaction responsive */
+@media  screen  and (max-width:1399px) { 
+    .main__item{
+        flex-direction: column;
+    }
+    .main__title{
+        margin-bottom: 0px;
+    }
+    .filter__box-container{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:1433px) {
+    .best__center-cart{
+        overflow: hidden;
+    }
+    
 }
